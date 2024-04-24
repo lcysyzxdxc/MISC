@@ -19,8 +19,27 @@
 
 [CompressAI](https://github.com/InterDigitalInc/CompressAI)
 
+## Instruction
+
+Download weights and put them into the weight folder:
+
+[DiffBIR](https://hf-mirror.com/lxq007/DiffBIR-v2/resolve/main/v1_general.pth)
+[Cheng2020-Tuned](https://www.dropbox.com/scl/fi/br0zu6a91wygs68afesyo/cheng_small.pth.tar?rlkey=2gdhpy3z5qank0giajacj2u9p&st=9q2y88aj&dl=0)
+
+If you want to use 'mask', download the [CLIP_Surgery}(https://github.com/xmed-lab/CLIP_Surgery/) model. Put the `clip' folder in the same directory as this project.
+
+Run the ipynb code in different modes to decompress the image!
+
+1. If you want pixel-instructed decoding, set the mode as 'pixel', a larger `block_num_min' means more pixels, with a larger bpps cost.
+
+2. If you want net-instructed decoding, set the mode as 'net' to use our fine-tuned Cheng-2020 net. You can also use your own net weight trained by [CompressAI](https://github.com/InterDigitalInc/CompressAI).
+
+3. If you want to use other models (like VVC, HiFiC, ...) as the starting point of diffusion, set the mode as 'ref', run your own model, and give the decompressed image and the bpps of your model.
+
 ## Demo
 [Feb 29, 2024] A simple Jupyter demo is uploaded. The encoder and decoder model weights will be uploaded soon.
+
+[Apr 24, 2024] The model weights are uploaded. Please follow the instruction when using the ipynb file. We are working on a pipeline for en/decoding a group of image.
 
 ## Visualzation Result
 <div align="center">
