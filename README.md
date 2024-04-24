@@ -23,10 +23,10 @@
 
 Download weights and put them into the weight folder:
 
-[DiffBIR](https://hf-mirror.com/lxq007/DiffBIR-v2/resolve/main/v1_general.pth)
-[Cheng2020-Tuned](https://www.dropbox.com/scl/fi/br0zu6a91wygs68afesyo/cheng_small.pth.tar?rlkey=2gdhpy3z5qank0giajacj2u9p&st=9q2y88aj&dl=0)
+DiffBIR (general_full_v1.ckpt): [link](https://hf-mirror.com/lxq007/DiffBIR-v2/resolve/main/v1_general.pth)
+Cheng2020-Tuned (cheng_small.pth.tar): [link](https://www.dropbox.com/scl/fi/br0zu6a91wygs68afesyo/cheng_small.pth.tar?rlkey=2gdhpy3z5qank0giajacj2u9p&st=9q2y88aj&dl=0)
 
-If you want to use 'mask', download the [CLIP_Surgery}(https://github.com/xmed-lab/CLIP_Surgery/) model. Put the `clip' folder in the same directory as this project.
+If you want to use 'mask', download the [CLIP_Surgery](https://github.com/xmed-lab/CLIP_Surgery/) model. Put the `clip' folder in the same directory as this project.
 
 Run the ipynb code in different modes to decompress the image!
 
