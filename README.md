@@ -49,3 +49,16 @@ Run the ipynb code in different modes to decompress the image!
  </div> 
 </div>
 
+## Citation
+If you find our work useful, please cite our paper as:
+```
+@misc{li2024misc,
+      title={MISC: Ultra-low Bitrate Image Semantic Compression Driven by Large Multimodal Model}, 
+      author={Chunyi Li and Guo Lu and Donghui Feng and Haoning Wu and Zicheng Zhang and Xiaohong Liu and Guangtao Zhai and Weisi Lin and Wenjun Zhang},
+      year={2024},
+      eprint={2402.16749},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
+```
